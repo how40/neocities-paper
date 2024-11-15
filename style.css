@@ -1,0 +1,79 @@
+body {
+    color: whitesmoke;
+    background-color: lightslategray;
+    background-image: url("https://sadhost.neocities.org/images/tiles/image005.gif");
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo-spread {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 80%;
+}
+.photo-spread img {
+    max-height: 100px;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    xjustify-content: center;
+    gap: 50px;
+}
+
+#title h1 {
+    position: sticky;
+}
+
+#article-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+article {
+    width: 100%;
+}
+
+blockquote {
+    outline: 2px solid blue;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color:indigo;
+    font-style: italic;
+    font-size: larger;
+    align-items: center;
+}
+
+blockquote img {
+    height: 100px;
+}
+
+article p {
+    Xtext-indent: 2em;
+    line-height: 1.5;
+}
+
+.citations a {
+    color: whitesmoke;
+    
+}
+
+.citations li {
+    list-style-type: none;
+    text-indent: -3em;
+    line-height: 2.0;
+}
